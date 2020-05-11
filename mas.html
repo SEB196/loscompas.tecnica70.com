@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu multimedia</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- partial:index.partial.html -->
+  <div class="m-dropdown">
+    <div class="e-button open">
+     Click  
+      <div class="e-burger">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <ul class="e-list">
+      <li><a href="chat.html">Mensajes</a></li>
+      <li><a href="Galeria.html">Galeria</a></li>
+      <li><a href="vi.html">videos</a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+    </ul>
+  </div>
+  <!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.2.1.js'></script>
+  <script src='https://use.fontawesome.com/b5bf1bd49e.js'></script>
+  <script src="./script.js"></script>
+  	<center><input type="button" value="Regresar" onClick="funcionAsociadaBoton()"></center>
+  	<script>
+  	  function funcionAsociadaBoton() {
+  	    /*otraFuncionJavascript();*/
+  
+  
+  
+  	    history.go(-1);
+  
+  	  }
+  	</script>
+</body>
+</html>
